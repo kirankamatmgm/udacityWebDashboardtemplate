@@ -9,7 +9,7 @@ def index():
 
     figures = return_figures()
 
-    # plot ids for the html id tag
+    # plot ids for the html ddddid tag
     ids = ['figure-{}'.format(i) for i, _ in enumerate(figures)]
 
     # Convert the plotly figures to JSON for javascript in html template
